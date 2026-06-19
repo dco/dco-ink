@@ -1,0 +1,44 @@
+name: Release Edge Extension
+
+on:
+  push:
+    tags:
+      - 'ext-v*'
+
+jobs:
+  build-and-release:
+    name: Build & Create GitHub Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        working-directory: ./extensions/edge
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Extension
+        run: npm run build
+
+      - name: Package Extension (.zip)
+        run: |
+          cd dist
+          zip -r ../dco-ink-extension.zip ./*
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: extensions/edge/dco-ink-extension.zip
+          name: dco.ink Extension ${{ github.ref_name }}
+          body: "Automated build artifact for dco.ink browser extension. Download the zip file and load unpacked into your browser, or upload it to the extension store."
+          draft: false
+          prerelease: false
