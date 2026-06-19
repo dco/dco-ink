@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "dcoink"
-version = "0.1.0"
+version = "0.1.1"
 description = "The official Python SDK for dco.ink - A minimalist and developer-friendly URL shortener"
 readme = "README.md"
 requires-python = ">=3.8"

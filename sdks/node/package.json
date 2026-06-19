@@ -1,6 +1,6 @@
 {
   "name": "dcoink",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The official zero-dependency Node.js/TypeScript SDK for dco.ink",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
