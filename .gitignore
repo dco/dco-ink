@@ -1,0 +1,11 @@
+# 忽略内部规划文件，不提交到 GitHub
+roadmap.md
+API_REFERENCE.md
+
+# 常见开发环境忽略
+node_modules/
+dist/
+.env
+.DS_Store
+__pycache__/
+*.pyc
