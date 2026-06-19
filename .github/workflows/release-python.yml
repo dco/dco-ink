@@ -10,6 +10,8 @@ jobs:
   publish:
     name: Build & Publish to PyPI
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     defaults:
       run:
         working-directory: ./sdks/python
@@ -33,3 +35,12 @@ jobs:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: twine upload dist/*
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: sdks/python/dist/*
+          name: Python SDK ${{ github.ref_name }}
+          body: "Automated release for the dcoink Python SDK. Includes compiled wheel and source tarball."
+          draft: false
+          prerelease: false

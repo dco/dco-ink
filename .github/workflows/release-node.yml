@@ -10,6 +10,8 @@ jobs:
   publish:
     name: Build & Publish to NPM
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     defaults:
       run:
         working-directory: ./sdks/node
@@ -33,3 +35,15 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Pack Tarball
+        run: npm pack
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: sdks/node/dcoink-*.tgz
+          name: Node SDK ${{ github.ref_name }}
+          body: "Automated release for the dcoink Node.js SDK. Install via NPM or download the tarball directly."
+          draft: false
+          prerelease: false
