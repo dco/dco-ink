@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'ext-v*'
+  workflow_dispatch:
 
 jobs:
   build-and-release:
@@ -22,6 +23,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.x'
+
+      - name: Build Node SDK dependency
+        run: |
+          cd ../../sdks/node
+          npm install
+          npm run build
 
       - name: Install Dependencies
         run: npm install
