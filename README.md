@@ -100,8 +100,8 @@ This project is structured as a monorepo.
 
 ```bash
 # Clone the repository
-git clone https://github.com/dco/dco-ink-tools.git
-cd dco-ink-tools
+git clone https://github.com/dco/dco-ink.git
+cd dco-ink
 
 # Extension Development
 cd extensions/edge
