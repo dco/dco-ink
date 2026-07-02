@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - Rút gọn URL"
+  },
+  "extensionDescription": {
+    "message": "Rút gọn và sao chép ngay lập tức URL của trang. Hỗ trợ mã tùy chỉnh và quản lý liên kết."
+  },
+  "logoVisit": {
+    "message": "Truy cập dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "Nhấp để đặt API Key"
+  },
+  "uiLoading": {
+    "message": "Đang tải..."
+  },
+  "placeholderApiKey": {
+    "message": "Nhập dco.ink API Key"
+  },
+  "saveAndReload": {
+    "message": "Lưu & Tải lại"
+  },
+  "placeholderUrl": {
+    "message": "Đang lấy URL hiện tại..."
+  },
+  "customCodeBtn": {
+    "message": "Mã tùy chỉnh"
+  },
+  "placeholderCustomCode": {
+    "message": "Nhập mã tùy chỉnh (VD: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Rút gọn"
+  },
+  "recentLinks": {
+    "message": "Liên kết gần đây"
+  },
+  "noRecentLinks": {
+    "message": "Không có liên kết nào"
+  },
+  "clickToCopy": {
+    "message": "Nhấp để sao chép"
+  },
+  "copied": {
+    "message": "✅ Đã sao chép"
+  },
+  "editTargetUrl": {
+    "message": "Sửa URL đích"
+  },
+  "promptEditTargetUrl": {
+    "message": "Nhập URL đích mới cho /$1:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Cập nhật thất bại: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Xóa liên kết rút gọn"
+  },
+  "confirmDelete": {
+    "message": "Bạn có chắc chắn muốn xóa /$1 không?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Xóa thất bại: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Chào, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Token không hợp lệ"
+  },
+  "login": {
+    "message": "Đăng nhập"
+  },
+  "apiKeyRequired": {
+    "message": "Cần API Key cho mã tùy chỉnh"
+  },
+  "saved": {
+    "message": "Đã lưu!"
+  },
+  "pleaseEnterUrl": {
+    "message": "Vui lòng nhập một URL"
+  },
+  "shortening": {
+    "message": "Đang rút gọn..."
+  },
+  "copiedUrl": {
+    "message": "✅ Đã sao chép! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Thành công: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Lỗi không xác định"
+  }
+}

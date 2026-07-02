@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - 網址縮短器"
+  },
+  "extensionDescription": {
+    "message": "一鍵縮短並複製目前網頁的 URL。支援自訂後綴和連結管理。"
+  },
+  "logoVisit": {
+    "message": "造訪 dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "點擊設定 API Key"
+  },
+  "uiLoading": {
+    "message": "載入中..."
+  },
+  "placeholderApiKey": {
+    "message": "輸入 dco.ink API Key"
+  },
+  "saveAndReload": {
+    "message": "儲存並重新載入"
+  },
+  "placeholderUrl": {
+    "message": "正在取得目前 URL..."
+  },
+  "customCodeBtn": {
+    "message": "自訂後綴"
+  },
+  "placeholderCustomCode": {
+    "message": "輸入自訂後綴 (如: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ 縮短網址"
+  },
+  "recentLinks": {
+    "message": "最近連結"
+  },
+  "noRecentLinks": {
+    "message": "暫無最近連結"
+  },
+  "clickToCopy": {
+    "message": "點擊複製"
+  },
+  "copied": {
+    "message": "✅ 已複製"
+  },
+  "editTargetUrl": {
+    "message": "編輯目標 URL"
+  },
+  "promptEditTargetUrl": {
+    "message": "輸入 /$1 的新目標 URL:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "更新失敗: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "刪除短連結"
+  },
+  "confirmDelete": {
+    "message": "你確定要刪除 /$1 嗎？",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "刪除失敗: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "你好，$1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "無效的 Token"
+  },
+  "login": {
+    "message": "登入"
+  },
+  "apiKeyRequired": {
+    "message": "自訂後綴需要 API Key"
+  },
+  "saved": {
+    "message": "已儲存！"
+  },
+  "pleaseEnterUrl": {
+    "message": "請輸入一個 URL"
+  },
+  "shortening": {
+    "message": "縮短中..."
+  },
+  "copiedUrl": {
+    "message": "✅ 已複製！$1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ 成功: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ 未知錯誤"
+  }
+}

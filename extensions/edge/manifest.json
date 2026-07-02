@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "dco.ink - URL Shortener",
-  "version": "1.0.0",
-  "description": "Instantly shorten and copy the current page's URL. Supports custom codes and link management.",
+  "name": "__MSG_extensionName__",
+  "version": "1.1.0",
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
   "icons": {
     "16": "icon-16.png",
     "48": "icon-48.png",

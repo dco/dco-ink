@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL چھوٹا کرنے والا"
+  },
+  "extensionDescription": {
+    "message": "فوری طور پر موجودہ صفحے کا URL چھوٹا کریں اور کاپی کریں۔ کسٹم کوڈز اور لنک مینجمنٹ کو سپورٹ کرتا ہے۔"
+  },
+  "logoVisit": {
+    "message": "dco.ink پر جائیں"
+  },
+  "clickToSetKey": {
+    "message": "API Key سیٹ کرنے کے لیے کلک کریں"
+  },
+  "uiLoading": {
+    "message": "لوڈ ہو رہا ہے..."
+  },
+  "placeholderApiKey": {
+    "message": "dco.ink API Key درج کریں"
+  },
+  "saveAndReload": {
+    "message": "محفوظ کریں اور دوبارہ لوڈ کریں"
+  },
+  "placeholderUrl": {
+    "message": "موجودہ URL حاصل کیا جا رہا ہے..."
+  },
+  "customCodeBtn": {
+    "message": "کسٹم کوڈ"
+  },
+  "placeholderCustomCode": {
+    "message": "کسٹم کوڈ درج کریں (جیسے: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ چھوٹا کریں"
+  },
+  "recentLinks": {
+    "message": "حالیہ لنکس"
+  },
+  "noRecentLinks": {
+    "message": "کوئی حالیہ لنکس نہیں"
+  },
+  "clickToCopy": {
+    "message": "کاپی کرنے کے لیے کلک کریں"
+  },
+  "copied": {
+    "message": "✅ کاپی ہو گیا"
+  },
+  "editTargetUrl": {
+    "message": "ہدف URL میں ترمیم کریں"
+  },
+  "promptEditTargetUrl": {
+    "message": "/$1 کے لیے نیا ہدف URL درج کریں:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "اپ ڈیٹ ناکام: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "چھوٹا لنک حذف کریں"
+  },
+  "confirmDelete": {
+    "message": "کیا آپ واقعی /$1 کو حذف کرنا چاہتے ہیں؟",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "حذف کرنا ناکام: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "ہیلو، $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "غلط ٹوکن"
+  },
+  "login": {
+    "message": "لاگ ان کریں"
+  },
+  "apiKeyRequired": {
+    "message": "کسٹم کوڈ کے لیے API کلید درکار ہے"
+  },
+  "saved": {
+    "message": "محفوظ ہو گیا!"
+  },
+  "pleaseEnterUrl": {
+    "message": "براہ کرم ایک URL درج کریں"
+  },
+  "shortening": {
+    "message": "چھوٹا کیا جا رہا ہے..."
+  },
+  "copiedUrl": {
+    "message": "✅ کاپی ہو گیا! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ کامیاب: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ نامعلوم خامی"
+  }
+}

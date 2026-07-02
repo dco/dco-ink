@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL短縮"
+  },
+  "extensionDescription": {
+    "message": "現在のページのURLを瞬時に短縮してコピーします。カスタムコードとリンク管理をサポートします。"
+  },
+  "logoVisit": {
+    "message": "dco.inkにアクセス"
+  },
+  "clickToSetKey": {
+    "message": "クリックしてAPI Keyを設定"
+  },
+  "uiLoading": {
+    "message": "読み込み中..."
+  },
+  "placeholderApiKey": {
+    "message": "dco.ink API Keyを入力"
+  },
+  "saveAndReload": {
+    "message": "保存して再読み込み"
+  },
+  "placeholderUrl": {
+    "message": "現在のURLを取得中..."
+  },
+  "customCodeBtn": {
+    "message": "カスタムコード"
+  },
+  "placeholderCustomCode": {
+    "message": "カスタムコードを入力 (例: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ 短縮する"
+  },
+  "recentLinks": {
+    "message": "最近のリンク"
+  },
+  "noRecentLinks": {
+    "message": "最近のリンクはありません"
+  },
+  "clickToCopy": {
+    "message": "クリックしてコピー"
+  },
+  "copied": {
+    "message": "✅ コピーしました"
+  },
+  "editTargetUrl": {
+    "message": "ターゲットURLを編集"
+  },
+  "promptEditTargetUrl": {
+    "message": "/$1 の新しいターゲットURLを入力:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "更新失敗: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "短縮リンクを削除"
+  },
+  "confirmDelete": {
+    "message": "/$1 を削除してもよろしいですか？",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "削除失敗: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "こんにちは、$1 さん",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "無効なトークン"
+  },
+  "login": {
+    "message": "ログイン"
+  },
+  "apiKeyRequired": {
+    "message": "カスタムコードにはAPI Keyが必要です"
+  },
+  "saved": {
+    "message": "保存しました！"
+  },
+  "pleaseEnterUrl": {
+    "message": "URLを入力してください"
+  },
+  "shortening": {
+    "message": "短縮中..."
+  },
+  "copiedUrl": {
+    "message": "✅ コピーしました！ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ 成功: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ 不明なエラー"
+  }
+}

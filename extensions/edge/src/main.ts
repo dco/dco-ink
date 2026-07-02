@@ -3,40 +3,40 @@ import { shorten, Client, DcoApiError } from 'dcoink';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <header>
-    <div id="logo-link" class="title" style="display:flex; align-items:center; gap:8px; cursor:pointer;" title="Visit dco.ink">
+    <div id="logo-link" class="title" style="display:flex; align-items:center; gap:8px; cursor:pointer;" title="${chrome.i18n.getMessage('logoVisit')}">
       <img src="/icon-48.png" width="20" height="20" alt="logo" style="border-radius:4px;" id="logo-img" />
       dco.ink
     </div>
-    <div class="user-info" id="user-display" style="cursor:pointer;" title="Click to set API Key">Loading...</div>
+    <div class="user-info" id="user-display" style="cursor:pointer;" title="${chrome.i18n.getMessage('clickToSetKey')}">${chrome.i18n.getMessage('uiLoading')}</div>
   </header>
 
   <div id="settings-content" class="hidden glass-panel" style="margin-bottom:16px;">
     <div class="input-group" style="margin-bottom:8px;">
-      <input type="password" id="api-key" placeholder="Enter dco.ink API Key" style="padding:6px; font-size:0.75rem;" />
+      <input type="password" id="api-key" placeholder="${chrome.i18n.getMessage('placeholderApiKey')}" style="padding:6px; font-size:0.75rem;" />
     </div>
-    <button id="save-key-btn" class="btn-primary" style="padding:6px; font-size:0.75rem;">Save & Reload</button>
+    <button id="save-key-btn" class="btn-primary" style="padding:6px; font-size:0.75rem;">${chrome.i18n.getMessage('saveAndReload')}</button>
     <div id="settings-feedback" class="feedback"></div>
   </div>
 
   <main class="glass-panel" id="main-panel">
     <div class="input-group" style="margin-bottom: 4px;">
       <div style="display: flex; gap: 8px; align-items: center;">
-        <input type="text" id="target-url" placeholder="Fetching current URL..." style="padding:8px; font-size:0.875rem; flex:1;" />
-        <button id="toggle-custom" class="btn-icon" style="padding:6px; font-size:1.1rem; cursor:pointer;" title="Custom Code">⚙️</button>
+        <input type="text" id="target-url" placeholder="${chrome.i18n.getMessage('placeholderUrl')}" style="padding:8px; font-size:0.875rem; flex:1;" />
+        <button id="toggle-custom" class="btn-icon" style="padding:6px; font-size:1.1rem; cursor:pointer;" title="${chrome.i18n.getMessage('customCodeBtn')}">⚙️</button>
       </div>
     </div>
     
     <div class="input-group hidden" id="custom-code-container" style="margin-bottom: 12px; margin-top: 8px;">
-      <input type="text" id="custom-code" placeholder="Enter custom code (e.g., mybrand)" style="padding:8px; font-size:0.875rem;" />
+      <input type="text" id="custom-code" placeholder="${chrome.i18n.getMessage('placeholderCustomCode')}" style="padding:8px; font-size:0.875rem;" />
     </div>
 
-    <button id="shorten-btn" class="btn-primary" style="padding:8px; font-size:0.875rem;">⚡ Shorten</button>
+    <button id="shorten-btn" class="btn-primary" style="padding:8px; font-size:0.875rem;">${chrome.i18n.getMessage('shortenBtn')}</button>
     <div id="status-feedback" class="feedback"></div>
   </main>
 
   <section class="glass-panel hidden" id="history-panel">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-      <h3 style="font-size:0.875rem; color:var(--text-secondary);">Recent Links</h3>
+      <h3 style="font-size:0.875rem; color:var(--text-secondary);">${chrome.i18n.getMessage('recentLinks')}</h3>
     </div>
     <div class="link-list" id="link-list">
       <!-- Links injected via JS -->
@@ -75,7 +75,7 @@ async function renderHistory() {
     linkList.innerHTML = '';
     
     if (links.length === 0) {
-      linkList.innerHTML = '<div style="text-align:center;font-size:0.75rem;color:var(--text-secondary)">No recent links</div>';
+      linkList.innerHTML = `<div style="text-align:center;font-size:0.75rem;color:var(--text-secondary)">${chrome.i18n.getMessage('noRecentLinks')}</div>`;
       return;
     }
 
@@ -89,10 +89,10 @@ async function renderHistory() {
       const shortTitle = document.createElement('div');
       shortTitle.className = 'link-short';
       shortTitle.textContent = link.shortCode;
-      shortTitle.title = "Click to copy";
+      shortTitle.title = chrome.i18n.getMessage('clickToCopy');
       shortTitle.onclick = async () => {
         if (await copyToClipboard(link.shortUrl)) {
-          shortTitle.textContent = "✅ Copied";
+          shortTitle.textContent = chrome.i18n.getMessage('copied');
           setTimeout(() => { shortTitle.textContent = link.shortCode; }, 1000);
         }
       };
@@ -112,15 +112,15 @@ async function renderHistory() {
       const editBtn = document.createElement('button');
       editBtn.className = 'btn-icon';
       editBtn.innerHTML = '✏️';
-      editBtn.title = "Edit target URL";
+      editBtn.title = chrome.i18n.getMessage('editTargetUrl');
       editBtn.onclick = async () => {
-        const newUrl = prompt(`Enter new target URL for /${link.shortCode}:`, link.targetUrl);
+        const newUrl = prompt(chrome.i18n.getMessage('promptEditTargetUrl', [link.shortCode]), link.targetUrl);
         if (newUrl && newUrl !== link.targetUrl) {
           try {
             await currentClient!.updateLink(link.shortCode, newUrl);
             await renderHistory();
           } catch (e: any) {
-            alert('Update failed: ' + e.message);
+            alert(chrome.i18n.getMessage('updateFailed', [e.message]));
           }
         }
       };
@@ -129,14 +129,14 @@ async function renderHistory() {
       const delBtn = document.createElement('button');
       delBtn.className = 'btn-icon';
       delBtn.innerHTML = '🗑️';
-      delBtn.title = "Delete short link";
+      delBtn.title = chrome.i18n.getMessage('deleteShortLink');
       delBtn.onclick = async () => {
-        if (confirm(`Are you sure you want to delete /${link.shortCode}?`)) {
+        if (confirm(chrome.i18n.getMessage('confirmDelete', [link.shortCode]))) {
           try {
             await currentClient!.deleteLink(link.shortCode);
             await renderHistory();
           } catch (e: any) {
-            alert('Delete failed: ' + e.message);
+            alert(chrome.i18n.getMessage('deleteFailed', [e.message]));
           }
         }
       };
@@ -177,15 +177,15 @@ async function init() {
     currentClient = new Client({ apiKey: currentApiKey });
     try {
       const me = await currentClient.getMe();
-      userDisplay.textContent = `Hi, ${me.name}`;
+      userDisplay.textContent = chrome.i18n.getMessage('hiUser', [me.name]);
       await renderHistory();
     } catch (e) {
-      userDisplay.textContent = "Invalid Token";
+      userDisplay.textContent = chrome.i18n.getMessage('invalidToken');
     }
   } else {
-    userDisplay.textContent = "Login";
+    userDisplay.textContent = chrome.i18n.getMessage('login');
     customCodeInput.disabled = true;
-    customCodeInput.placeholder = "API Key required for custom codes";
+    customCodeInput.placeholder = chrome.i18n.getMessage('apiKeyRequired');
   }
 
   // Logo Link
@@ -211,7 +211,7 @@ async function init() {
     } else {
       await chrome.storage.local.set({ dcoApiKey: key });
     }
-    showFeedback('settings-feedback', 'Saved!');
+    showFeedback('settings-feedback', chrome.i18n.getMessage('saved'));
     setTimeout(() => location.reload(), 800);
   });
 
@@ -222,12 +222,12 @@ async function init() {
     const customCode = customCodeInput.value.trim() || undefined;
 
     if (!targetUrl) {
-      showFeedback('status-feedback', 'Please enter a URL', true);
+      showFeedback('status-feedback', chrome.i18n.getMessage('pleaseEnterUrl'), true);
       return;
     }
 
     btn.disabled = true;
-    btn.textContent = 'Shortening...';
+    btn.textContent = chrome.i18n.getMessage('shortening');
 
     try {
       const link = await shorten(targetUrl, { 
@@ -237,9 +237,9 @@ async function init() {
 
       const copied = await copyToClipboard(link.shortUrl);
       if (copied) {
-        showFeedback('status-feedback', `✅ Copied! ${link.shortUrl}`);
+        showFeedback('status-feedback', chrome.i18n.getMessage('copiedUrl', [link.shortUrl]));
       } else {
-        showFeedback('status-feedback', `✅ Success: ${link.shortUrl}`);
+        showFeedback('status-feedback', chrome.i18n.getMessage('successUrl', [link.shortUrl]));
       }
       
       // Auto refresh history if authed
@@ -250,13 +250,13 @@ async function init() {
       customCodeInput.value = '';
     } catch (error: any) {
       if (error instanceof DcoApiError) {
-        showFeedback('status-feedback', `❌ ${error.message}`, true);
+        showFeedback('status-feedback', chrome.i18n.getMessage('errorPrefix', [error.message]), true);
       } else {
-        showFeedback('status-feedback', `❌ Unknown error`, true);
+        showFeedback('status-feedback', chrome.i18n.getMessage('unknownError'), true);
       }
     } finally {
       btn.disabled = false;
-      btn.textContent = '⚡ Shorten';
+      btn.textContent = chrome.i18n.getMessage('shortenBtn');
     }
   });
 }

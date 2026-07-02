@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL-Kürzer"
+  },
+  "extensionDescription": {
+    "message": "Kürzen und kopieren Sie sofort die URL der Seite. Unterstützt benutzerdefinierte Codes und Link-Management."
+  },
+  "logoVisit": {
+    "message": "dco.ink besuchen"
+  },
+  "clickToSetKey": {
+    "message": "Klicken, um API Key festzulegen"
+  },
+  "uiLoading": {
+    "message": "Laden..."
+  },
+  "placeholderApiKey": {
+    "message": "dco.ink API Key eingeben"
+  },
+  "saveAndReload": {
+    "message": "Speichern & Neu laden"
+  },
+  "placeholderUrl": {
+    "message": "Aktuelle URL wird abgerufen..."
+  },
+  "customCodeBtn": {
+    "message": "Eigener Code"
+  },
+  "placeholderCustomCode": {
+    "message": "Eigenen Code eingeben (z. B. mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Kürzen"
+  },
+  "recentLinks": {
+    "message": "Letzte Links"
+  },
+  "noRecentLinks": {
+    "message": "Keine aktuellen Links"
+  },
+  "clickToCopy": {
+    "message": "Klicken zum Kopieren"
+  },
+  "copied": {
+    "message": "✅ Kopiert"
+  },
+  "editTargetUrl": {
+    "message": "Ziel-URL bearbeiten"
+  },
+  "promptEditTargetUrl": {
+    "message": "Neue Ziel-URL für /$1 eingeben:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Aktualisierung fehlgeschlagen: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Kurzlink löschen"
+  },
+  "confirmDelete": {
+    "message": "Möchten Sie /$1 wirklich löschen?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Löschen fehlgeschlagen: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Hallo, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Ungültiges Token"
+  },
+  "login": {
+    "message": "Anmelden"
+  },
+  "apiKeyRequired": {
+    "message": "API-Schlüssel für eigene Codes erforderlich"
+  },
+  "saved": {
+    "message": "Gespeichert!"
+  },
+  "pleaseEnterUrl": {
+    "message": "Bitte eine URL eingeben"
+  },
+  "shortening": {
+    "message": "Wird gekürzt..."
+  },
+  "copiedUrl": {
+    "message": "✅ Kopiert! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Erfolgreich: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Unbekannter Fehler"
+  }
+}

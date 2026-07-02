@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - Encurtador de URL"
+  },
+  "extensionDescription": {
+    "message": "Encurte e copie instantaneamente o URL da página. Suporta códigos personalizados e gestão de links."
+  },
+  "logoVisit": {
+    "message": "Visitar dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "Clique para definir a API Key"
+  },
+  "uiLoading": {
+    "message": "Carregando..."
+  },
+  "placeholderApiKey": {
+    "message": "Insira a API Key dco.ink"
+  },
+  "saveAndReload": {
+    "message": "Salvar e Recarregar"
+  },
+  "placeholderUrl": {
+    "message": "Buscando URL atual..."
+  },
+  "customCodeBtn": {
+    "message": "Código Personalizado"
+  },
+  "placeholderCustomCode": {
+    "message": "Insira o código (ex: minhamarca)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Encurtar"
+  },
+  "recentLinks": {
+    "message": "Links Recentes"
+  },
+  "noRecentLinks": {
+    "message": "Nenhum link recente"
+  },
+  "clickToCopy": {
+    "message": "Clique para copiar"
+  },
+  "copied": {
+    "message": "✅ Copiado"
+  },
+  "editTargetUrl": {
+    "message": "Editar URL de destino"
+  },
+  "promptEditTargetUrl": {
+    "message": "Insira novo URL de destino para /$1:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Falha na atualização: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Excluir link curto"
+  },
+  "confirmDelete": {
+    "message": "Tem certeza de que deseja excluir /$1?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Falha ao excluir: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Olá, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Token Inválido"
+  },
+  "login": {
+    "message": "Entrar"
+  },
+  "apiKeyRequired": {
+    "message": "API Key necessária para código perso"
+  },
+  "saved": {
+    "message": "Salvo!"
+  },
+  "pleaseEnterUrl": {
+    "message": "Por favor, insira um URL"
+  },
+  "shortening": {
+    "message": "Encurtando..."
+  },
+  "copiedUrl": {
+    "message": "✅ Copiado! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Sucesso: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Erro desconhecido"
+  }
+}

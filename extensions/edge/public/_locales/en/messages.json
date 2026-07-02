@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL Shortener"
+  },
+  "extensionDescription": {
+    "message": "Instantly shorten and copy the current page's URL. Supports custom codes and link management."
+  },
+  "logoVisit": {
+    "message": "Visit dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "Click to set API Key"
+  },
+  "uiLoading": {
+    "message": "Loading..."
+  },
+  "placeholderApiKey": {
+    "message": "Enter dco.ink API Key"
+  },
+  "saveAndReload": {
+    "message": "Save & Reload"
+  },
+  "placeholderUrl": {
+    "message": "Fetching current URL..."
+  },
+  "customCodeBtn": {
+    "message": "Custom Code"
+  },
+  "placeholderCustomCode": {
+    "message": "Enter custom code (e.g., mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Shorten"
+  },
+  "recentLinks": {
+    "message": "Recent Links"
+  },
+  "noRecentLinks": {
+    "message": "No recent links"
+  },
+  "clickToCopy": {
+    "message": "Click to copy"
+  },
+  "copied": {
+    "message": "✅ Copied"
+  },
+  "editTargetUrl": {
+    "message": "Edit target URL"
+  },
+  "promptEditTargetUrl": {
+    "message": "Enter new target URL for /$1:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Update failed: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Delete short link"
+  },
+  "confirmDelete": {
+    "message": "Are you sure you want to delete /$1?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Delete failed: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Hi, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Invalid Token"
+  },
+  "login": {
+    "message": "Login"
+  },
+  "apiKeyRequired": {
+    "message": "API Key required for custom codes"
+  },
+  "saved": {
+    "message": "Saved!"
+  },
+  "pleaseEnterUrl": {
+    "message": "Please enter a URL"
+  },
+  "shortening": {
+    "message": "Shortening..."
+  },
+  "copiedUrl": {
+    "message": "✅ Copied! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Success: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Unknown error"
+  }
+}

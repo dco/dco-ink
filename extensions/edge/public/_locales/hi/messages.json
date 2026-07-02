@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL छोटा करने वाला"
+  },
+  "extensionDescription": {
+    "message": "तुरंत वर्तमान पृष्ठ के URL को छोटा करें और कॉपी करें। कस्टम कोड और लिंक प्रबंधन का समर्थन करता है।"
+  },
+  "logoVisit": {
+    "message": "dco.ink पर जाएं"
+  },
+  "clickToSetKey": {
+    "message": "API Key सेट करने के लिए क्लिक करें"
+  },
+  "uiLoading": {
+    "message": "लोड हो रहा है..."
+  },
+  "placeholderApiKey": {
+    "message": "dco.ink API Key दर्ज करें"
+  },
+  "saveAndReload": {
+    "message": "सहेजें और पुनः लोड करें"
+  },
+  "placeholderUrl": {
+    "message": "वर्तमान URL प्राप्त कर रहा है..."
+  },
+  "customCodeBtn": {
+    "message": "कस्टम कोड"
+  },
+  "placeholderCustomCode": {
+    "message": "कस्टम कोड दर्ज करें (उदा: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ छोटा करें"
+  },
+  "recentLinks": {
+    "message": "हाल के लिंक"
+  },
+  "noRecentLinks": {
+    "message": "कोई हाल का लिंक नहीं"
+  },
+  "clickToCopy": {
+    "message": "कॉपी करने के लिए क्लिक करें"
+  },
+  "copied": {
+    "message": "✅ कॉपी हो गया"
+  },
+  "editTargetUrl": {
+    "message": "लक्ष्य URL संपादित करें"
+  },
+  "promptEditTargetUrl": {
+    "message": "/$1 के लिए नया लक्ष्य URL दर्ज करें:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "अपडेट विफल: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "छोटा लिंक हटाएं"
+  },
+  "confirmDelete": {
+    "message": "क्या आप वाकई /$1 को हटाना चाहते हैं?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "हटाना विफल: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "नमस्ते, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "अमान्य टोकन"
+  },
+  "login": {
+    "message": "लॉग इन करें"
+  },
+  "apiKeyRequired": {
+    "message": "कस्टम कोड के लिए API Key आवश्यक है"
+  },
+  "saved": {
+    "message": "सहेजा गया!"
+  },
+  "pleaseEnterUrl": {
+    "message": "कृपया एक URL दर्ज करें"
+  },
+  "shortening": {
+    "message": "छोटा किया जा रहा है..."
+  },
+  "copiedUrl": {
+    "message": "✅ कॉपी हो गया! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ सफल: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ अज्ञात त्रुटि"
+  }
+}

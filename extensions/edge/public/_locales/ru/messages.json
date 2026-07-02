@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - Сокращатель URL"
+  },
+  "extensionDescription": {
+    "message": "Мгновенно сокращайте и копируйте URL текущей страницы. Поддерживает пользовательские коды и управление ссылками."
+  },
+  "logoVisit": {
+    "message": "Посетить dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "Нажмите, чтобы задать API Key"
+  },
+  "uiLoading": {
+    "message": "Загрузка..."
+  },
+  "placeholderApiKey": {
+    "message": "Введите dco.ink API Key"
+  },
+  "saveAndReload": {
+    "message": "Сохранить и перезагрузить"
+  },
+  "placeholderUrl": {
+    "message": "Получение текущего URL..."
+  },
+  "customCodeBtn": {
+    "message": "Пользовательский код"
+  },
+  "placeholderCustomCode": {
+    "message": "Введите код (напр., mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Сократить"
+  },
+  "recentLinks": {
+    "message": "Недавние ссылки"
+  },
+  "noRecentLinks": {
+    "message": "Нет недавних ссылок"
+  },
+  "clickToCopy": {
+    "message": "Нажмите, чтобы скопировать"
+  },
+  "copied": {
+    "message": "✅ Скопировано"
+  },
+  "editTargetUrl": {
+    "message": "Редактировать целевой URL"
+  },
+  "promptEditTargetUrl": {
+    "message": "Введите новый целевой URL для /$1:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Ошибка обновления: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Удалить короткую ссылку"
+  },
+  "confirmDelete": {
+    "message": "Вы уверены, что хотите удалить /$1?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Ошибка удаления: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Привет, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Недействительный токен"
+  },
+  "login": {
+    "message": "Войти"
+  },
+  "apiKeyRequired": {
+    "message": "Требуется API Key для своих кодов"
+  },
+  "saved": {
+    "message": "Сохранено!"
+  },
+  "pleaseEnterUrl": {
+    "message": "Пожалуйста, введите URL"
+  },
+  "shortening": {
+    "message": "Сокращение..."
+  },
+  "copiedUrl": {
+    "message": "✅ Скопировано! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Успех: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Неизвестная ошибка"
+  }
+}

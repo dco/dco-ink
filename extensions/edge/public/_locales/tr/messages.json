@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL Kısaltıcı"
+  },
+  "extensionDescription": {
+    "message": "Geçerli sayfanın URL'sini anında kısaltın ve kopyalayın. Özel kodları ve bağlantı yönetimini destekler."
+  },
+  "logoVisit": {
+    "message": "dco.ink'i ziyaret et"
+  },
+  "clickToSetKey": {
+    "message": "API Key ayarlamak için tıkla"
+  },
+  "uiLoading": {
+    "message": "Yükleniyor..."
+  },
+  "placeholderApiKey": {
+    "message": "dco.ink API Key girin"
+  },
+  "saveAndReload": {
+    "message": "Kaydet & Yenile"
+  },
+  "placeholderUrl": {
+    "message": "Mevcut URL alınıyor..."
+  },
+  "customCodeBtn": {
+    "message": "Özel Kod"
+  },
+  "placeholderCustomCode": {
+    "message": "Özel kod girin (örn. mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Kısalt"
+  },
+  "recentLinks": {
+    "message": "Son Bağlantılar"
+  },
+  "noRecentLinks": {
+    "message": "Son bağlantı yok"
+  },
+  "clickToCopy": {
+    "message": "Kopyalamak için tıkla"
+  },
+  "copied": {
+    "message": "✅ Kopyalandı"
+  },
+  "editTargetUrl": {
+    "message": "Hedef URL'yi Düzenle"
+  },
+  "promptEditTargetUrl": {
+    "message": "/$1 için yeni hedef URL girin:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Güncelleme başarısız: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Kısa bağlantıyı sil"
+  },
+  "confirmDelete": {
+    "message": "/$1 silmek istediğinize emin misiniz?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Silme başarısız: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Merhaba, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Geçersiz Token"
+  },
+  "login": {
+    "message": "Giriş Yap"
+  },
+  "apiKeyRequired": {
+    "message": "Özel kodlar için API Anahtarı gereklidir"
+  },
+  "saved": {
+    "message": "Kaydedildi!"
+  },
+  "pleaseEnterUrl": {
+    "message": "Lütfen bir URL girin"
+  },
+  "shortening": {
+    "message": "Kısaltılıyor..."
+  },
+  "copiedUrl": {
+    "message": "✅ Kopyalandı! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Başarılı: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Bilinmeyen hata"
+  }
+}

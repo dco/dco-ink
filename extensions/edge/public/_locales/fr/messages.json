@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - Réducteur d'URL"
+  },
+  "extensionDescription": {
+    "message": "Réduisez et copiez instantanément l'URL de la page. Prend en charge les codes personnalisés et la gestion des liens."
+  },
+  "logoVisit": {
+    "message": "Visiter dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "Cliquez pour définir l'API Key"
+  },
+  "uiLoading": {
+    "message": "Chargement..."
+  },
+  "placeholderApiKey": {
+    "message": "Entrez l'API Key dco.ink"
+  },
+  "saveAndReload": {
+    "message": "Enregistrer et recharger"
+  },
+  "placeholderUrl": {
+    "message": "Récupération de l'URL actuelle..."
+  },
+  "customCodeBtn": {
+    "message": "Code personnalisé"
+  },
+  "placeholderCustomCode": {
+    "message": "Entrez le code (ex: mamarque)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Réduire"
+  },
+  "recentLinks": {
+    "message": "Liens récents"
+  },
+  "noRecentLinks": {
+    "message": "Aucun lien récent"
+  },
+  "clickToCopy": {
+    "message": "Cliquez pour copier"
+  },
+  "copied": {
+    "message": "✅ Copié"
+  },
+  "editTargetUrl": {
+    "message": "Modifier l'URL cible"
+  },
+  "promptEditTargetUrl": {
+    "message": "Entrez la nouvelle URL cible pour /$1 :",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Échec de la mise à jour : $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Supprimer le lien court"
+  },
+  "confirmDelete": {
+    "message": "Êtes-vous sûr de vouloir supprimer /$1 ?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Échec de la suppression : $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Bonjour, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Jeton invalide"
+  },
+  "login": {
+    "message": "Connexion"
+  },
+  "apiKeyRequired": {
+    "message": "Clé API requise pour codes perso"
+  },
+  "saved": {
+    "message": "Enregistré !"
+  },
+  "pleaseEnterUrl": {
+    "message": "Veuillez entrer une URL"
+  },
+  "shortening": {
+    "message": "Réduction..."
+  },
+  "copiedUrl": {
+    "message": "✅ Copié ! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Succès : $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Erreur inconnue"
+  }
+}

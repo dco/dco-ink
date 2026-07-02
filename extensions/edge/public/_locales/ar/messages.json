@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - اختصار الروابط"
+  },
+  "extensionDescription": {
+    "message": "قم باختصار ونسخ عنوان URL للصفحة الحالية على الفور. يدعم الأكواد المخصصة وإدارة الروابط."
+  },
+  "logoVisit": {
+    "message": "زيارة dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "انقر لتعيين API Key"
+  },
+  "uiLoading": {
+    "message": "جاري التحميل..."
+  },
+  "placeholderApiKey": {
+    "message": "أدخل مفتاح dco.ink API"
+  },
+  "saveAndReload": {
+    "message": "حفظ وإعادة تحميل"
+  },
+  "placeholderUrl": {
+    "message": "جاري جلب الرابط الحالي..."
+  },
+  "customCodeBtn": {
+    "message": "كود مخصص"
+  },
+  "placeholderCustomCode": {
+    "message": "أدخل كود مخصص (مثل: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ اختصار"
+  },
+  "recentLinks": {
+    "message": "الروابط الأخيرة"
+  },
+  "noRecentLinks": {
+    "message": "لا توجد روابط أخيرة"
+  },
+  "clickToCopy": {
+    "message": "انقر للنسخ"
+  },
+  "copied": {
+    "message": "✅ تم النسخ"
+  },
+  "editTargetUrl": {
+    "message": "تعديل الرابط الهدف"
+  },
+  "promptEditTargetUrl": {
+    "message": "أدخل الرابط الهدف الجديد لـ /$1:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "فشل التحديث: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "حذف الرابط القصير"
+  },
+  "confirmDelete": {
+    "message": "هل أنت متأكد أنك تريد حذف /$1؟",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "فشل الحذف: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "مرحباً، $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "رمز غير صالح"
+  },
+  "login": {
+    "message": "تسجيل الدخول"
+  },
+  "apiKeyRequired": {
+    "message": "مفتاح API مطلوب للأكواد المخصصة"
+  },
+  "saved": {
+    "message": "تم الحفظ!"
+  },
+  "pleaseEnterUrl": {
+    "message": "الرجاء إدخال رابط URL"
+  },
+  "shortening": {
+    "message": "جاري الاختصار..."
+  },
+  "copiedUrl": {
+    "message": "✅ تم النسخ! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ نجاح: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ خطأ غير معروف"
+  }
+}

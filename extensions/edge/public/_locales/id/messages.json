@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - Penyingkat URL"
+  },
+  "extensionDescription": {
+    "message": "Singkatkan dan salin URL halaman secara instan. Mendukung kode khusus dan manajemen tautan."
+  },
+  "logoVisit": {
+    "message": "Kunjungi dco.ink"
+  },
+  "clickToSetKey": {
+    "message": "Klik untuk mengatur API Key"
+  },
+  "uiLoading": {
+    "message": "Memuat..."
+  },
+  "placeholderApiKey": {
+    "message": "Masukkan dco.ink API Key"
+  },
+  "saveAndReload": {
+    "message": "Simpan & Muat Ulang"
+  },
+  "placeholderUrl": {
+    "message": "Mengambil URL saat ini..."
+  },
+  "customCodeBtn": {
+    "message": "Kode Khusus"
+  },
+  "placeholderCustomCode": {
+    "message": "Masukkan kode khusus (mis: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ Singkatkan"
+  },
+  "recentLinks": {
+    "message": "Tautan Terbaru"
+  },
+  "noRecentLinks": {
+    "message": "Tidak ada tautan terbaru"
+  },
+  "clickToCopy": {
+    "message": "Klik untuk menyalin"
+  },
+  "copied": {
+    "message": "✅ Tersalin"
+  },
+  "editTargetUrl": {
+    "message": "Edit URL target"
+  },
+  "promptEditTargetUrl": {
+    "message": "Masukkan URL target baru untuk /$1:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "Gagal memperbarui: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "Hapus tautan pendek"
+  },
+  "confirmDelete": {
+    "message": "Apakah Anda yakin ingin menghapus /$1?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "Gagal menghapus: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "Hai, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "Token Tidak Valid"
+  },
+  "login": {
+    "message": "Masuk"
+  },
+  "apiKeyRequired": {
+    "message": "Kunci API diperlukan untuk kode khusus"
+  },
+  "saved": {
+    "message": "Tersimpan!"
+  },
+  "pleaseEnterUrl": {
+    "message": "Harap masukkan URL"
+  },
+  "shortening": {
+    "message": "Menyingkatkan..."
+  },
+  "copiedUrl": {
+    "message": "✅ Tersalin! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ Berhasil: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ Kesalahan tidak dikenal"
+  }
+}

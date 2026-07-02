@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL కుదింపు"
+  },
+  "extensionDescription": {
+    "message": "ప్రస్తుత పేజీ URLని తక్షణమే కుదించండి మరియు కాపీ చేయండి. అనుకూల కోడ్‌లు మరియు లింక్ నిర్వహణకు మద్దతు ఇస్తుంది."
+  },
+  "logoVisit": {
+    "message": "dco.inkని సందర్శించండి"
+  },
+  "clickToSetKey": {
+    "message": "API Keyని సెట్ చేయడానికి క్లిక్ చేయండి"
+  },
+  "uiLoading": {
+    "message": "లోడ్ అవుతోంది..."
+  },
+  "placeholderApiKey": {
+    "message": "dco.ink API Keyని నమోదు చేయండి"
+  },
+  "saveAndReload": {
+    "message": "సేవ్ చేసి మళ్లీ లోడ్ చేయండి"
+  },
+  "placeholderUrl": {
+    "message": "ప్రస్తుత URLని పొందుతోంది..."
+  },
+  "customCodeBtn": {
+    "message": "అనుకూల కోడ్"
+  },
+  "placeholderCustomCode": {
+    "message": "అనుకూల కోడ్‌ని నమోదు చేయండి (ఉదా: mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ కుదించు"
+  },
+  "recentLinks": {
+    "message": "ఇటీవలి లింక్‌లు"
+  },
+  "noRecentLinks": {
+    "message": "ఇటీవలి లింక్‌లు లేవు"
+  },
+  "clickToCopy": {
+    "message": "కాపీ చేయడానికి క్లిక్ చేయండి"
+  },
+  "copied": {
+    "message": "✅ కాపీ చేయబడింది"
+  },
+  "editTargetUrl": {
+    "message": "లక్ష్య URLని సవరించండి"
+  },
+  "promptEditTargetUrl": {
+    "message": "/$1 కోసం కొత్త లక్ష్య URLని నమోదు చేయండి:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "నవీకరణ విఫలమైంది: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "చిన్న లింక్‌ను తొలగించండి"
+  },
+  "confirmDelete": {
+    "message": "మీరు ఖచ్చితంగా /$1ని తొలగించాలనుకుంటున్నారా?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "తొలగింపు విఫలమైంది: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "నమస్తే, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "చెల్లని టోకెన్"
+  },
+  "login": {
+    "message": "లాగిన్"
+  },
+  "apiKeyRequired": {
+    "message": "అనుకూల కోడ్‌ల కోసం API కీ అవసరం"
+  },
+  "saved": {
+    "message": "సేవ్ చేయబడింది!"
+  },
+  "pleaseEnterUrl": {
+    "message": "దయచేసి URLని నమోదు చేయండి"
+  },
+  "shortening": {
+    "message": "కుదించబడుతోంది..."
+  },
+  "copiedUrl": {
+    "message": "✅ కాపీ చేయబడింది! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ విజయం: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ తెలియని లోపం"
+  }
+}

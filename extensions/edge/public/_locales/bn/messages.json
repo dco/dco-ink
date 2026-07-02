@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "dco.ink - URL শর্টনার"
+  },
+  "extensionDescription": {
+    "message": "বর্তমান পৃষ্ঠার URL তাৎক্ষণিকভাবে ছোট এবং কপি করুন। কাস্টম কোড এবং লিঙ্ক পরিচালনা সমর্থন করে।"
+  },
+  "logoVisit": {
+    "message": "dco.ink ভিজিট করুন"
+  },
+  "clickToSetKey": {
+    "message": "API Key সেট করতে ক্লিক করুন"
+  },
+  "uiLoading": {
+    "message": "লোড হচ্ছে..."
+  },
+  "placeholderApiKey": {
+    "message": "dco.ink API Key লিখুন"
+  },
+  "saveAndReload": {
+    "message": "সংরক্ষণ এবং পুনরায় লোড করুন"
+  },
+  "placeholderUrl": {
+    "message": "বর্তমান URL আনা হচ্ছে..."
+  },
+  "customCodeBtn": {
+    "message": "কাস্টম কোড"
+  },
+  "placeholderCustomCode": {
+    "message": "কাস্টম কোড লিখুন (যেমন, mybrand)"
+  },
+  "shortenBtn": {
+    "message": "⚡ ছোট করুন"
+  },
+  "recentLinks": {
+    "message": "সাম্প্রতিক লিঙ্ক"
+  },
+  "noRecentLinks": {
+    "message": "কোন সাম্প্রতিক লিঙ্ক নেই"
+  },
+  "clickToCopy": {
+    "message": "কপি করতে ক্লিক করুন"
+  },
+  "copied": {
+    "message": "✅ কপি হয়েছে"
+  },
+  "editTargetUrl": {
+    "message": "টার্গেট URL সম্পাদনা করুন"
+  },
+  "promptEditTargetUrl": {
+    "message": "/$1 এর জন্য নতুন টার্গেট URL লিখুন:",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateFailed": {
+    "message": "আপডেট ব্যর্থ হয়েছে: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteShortLink": {
+    "message": "শর্ট লিঙ্ক মুছুন"
+  },
+  "confirmDelete": {
+    "message": "আপনি কি নিশ্চিত যে আপনি /$1 মুছতে চান?",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteFailed": {
+    "message": "মুছতে ব্যর্থ হয়েছে: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiUser": {
+    "message": "নমস্কার, $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidToken": {
+    "message": "অবৈধ টোকেন"
+  },
+  "login": {
+    "message": "লগইন"
+  },
+  "apiKeyRequired": {
+    "message": "কাস্টম কোডের জন্য API Key প্রয়োজন"
+  },
+  "saved": {
+    "message": "সংরক্ষিত!"
+  },
+  "pleaseEnterUrl": {
+    "message": "অনুগ্রহ করে একটি URL লিখুন"
+  },
+  "shortening": {
+    "message": "ছোট করা হচ্ছে..."
+  },
+  "copiedUrl": {
+    "message": "✅ কপি হয়েছে! $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "successUrl": {
+    "message": "✅ সফল: $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "❌ $1",
+    "placeholders": {
+      "param1": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownError": {
+    "message": "❌ অজানা ত্রুটি"
+  }
+}
